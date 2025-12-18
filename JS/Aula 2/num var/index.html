@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Soma de 10 + 5</h1>
+    <p id="result"></p>
+
+    <h1>String + number</h1>
+    <p id="numberstring"></p>
+
+    <h1>Strings</h1>
+    <p id="stringresult"></p>
+
+    <h1>Typeof</h1>
+    <p id="t1"></p>
+    <p id="t2"></p>
+    <p id="t3"></p>
+
+    <script>
+
+    
+
+
+        let age = 24;
+        let name = 'Nuno Marques';
+        document.getElementById("numberstring").innerHTML = 
+            "Nome: " + name + "<br>Idade: " + age;
+
+
+        let string = 'It\'s the things in the nights';
+        document.getElementById("stringresult").innerHTML = string;
+
+        var firstName = "Emanuela";
+        var typeFirstName = typeof(firstName);
+        document.getElementById("t1").innerHTML = firstName + " tipo:" + typeFirstName;
+
+        var NrOfWheels = 4;
+        var typeNrOfWheels = typeof(NrOfWheels);
+        document.getElementById("t2").innerHTML = NrOfWheels + " tipo:" + typeNrOfWheels;
+
+        let a = 10;
+        let b = 5;
+        let x = a * b + (b - a)**2;
+        console.log(x)
+
+
+    </script>
+    
+</body>
+</html>

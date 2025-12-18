@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+
+.nav-bar {
+  background-color: #CF4B00;
+  overflow: hidden;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 60px;
+  padding-left: 5rem;
+  gap: 1rem;
+}
+
+.nav-bar a {
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0 0.5rem;
+
+}
+
+.nav-bar a:hover {
+  background-color: #DDBA7D;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.full-page-section {
+  height: calc(100vh - 60px);
+  width: 100%;
+}
+
+#home {
+  background-image: linear-gradient(to bottom, #CF4B00, #FCF6D9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#home > div {
+  width: 40%;
+}
+
+#home-image {
+  max-width: 500px;
+  height: auto;
+}
+
+#home-image img {
+  width: 100%;
+  height: auto;
+}
+
+#home-title-section h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+#home-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.rounded-btn {
+  border-radius: 2rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  border: solid 1px white;
+}
+
+.rounded-btn:hover {
+  background-color: white;
+  color: #CF4B00;
+  font-weight: bold;
+}
+
+.special:hover{
+  background-image: linear-gradient(to right, #9CC6DB, #FCF6D9);
+  color: #CF4B00;
+}
+
+#part-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+#robot-steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 4rem;
+}
+
+.robot-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem ;
+}
+
+.step-content {
+  width: 16rem;
+  height: 16rem;
+  background-color: pink;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.step-content img {
+  width: 70%;
+  height: auto;
+}
+
+.step-counter {
+  border: 1px solid purple;
+  padding: 8px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -0.5rem;
+  left: 60%;
+  background-color: white;
+  width: 3rem;
+  height: 3rem;
+}
+
+.step-desc{
+  border: dashed 2px purple;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+#contacts-section, #prices-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+#contact-form {
+  display: flex;
+  width: 70rem;
+  gap: 1rem;
+}
+
+#contact-form div {
+  flex: 1;
+}
+
+#contact-form input, #contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  font-size: 16px;
+}
+
+#contact-form button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: #CF4B00;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  background-color: #DDBA7D;
+  font-weight: bold;
+}
+
+.form-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#prices-list {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.price-card {
+  background-color: purple;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  min-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 20rem;  
+}
+
+.price-card h2,p {
+  margin: 0;
+}
+
+.price-value {
+  font-size: 24px;
+}
+
+.price-value-value{
+  font-weight: bold;
+  font-size: 32px;
+  color: turquoise;
+}
+
+.price-features {
+  list-style-image: url('images/check_circle_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png');
+}
+
+.special-card {
+  width: 25rem;
+  height: 24rem;
+}
+
+@media screen and (max-width: 460px) {
+
+  #home {
+    flex-direction: column;
+  }
+
+  #robot-steps {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+

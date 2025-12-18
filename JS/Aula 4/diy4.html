@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" id="i-city" placeholder="Cidade">
+    <input type="text" id="i-country" placeholder="Pais">
+    <button onclick="showDetails()">Show Details</button>
+
+    <p id="myp"></p>
+
+
+    <script>
+
+        function showDetails(){
+            let city = document.getElementById("i-city").value;
+            let country = document.getElementById("i-country").value;
+
+            let result = "Cidade: " + city + "\n" + country;
+            alert(result);
+            document.getElementById("myp").innerText = result;
+        }
+
+    </script>
+
+</body>
+</html>

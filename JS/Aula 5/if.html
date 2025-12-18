@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="i-age" placeholder="Idade">
+    <button onclick="ageMath()">Age math!</button>
+    
+
+    <script>
+
+        function ageMath(){
+            let age = parseInt(document.getElementById("i-age").value);
+
+            if (age >= 22){
+                alert("Pode tirar carta de pesados!")
+            }
+            else if (age >= 18) {
+                alert("Pode Tirar Carta de Carro!")
+            }
+            else if (age >= 16){
+                alert("Pode tirar carta de Mota 125cc");
+            }
+            else {
+                alert("Nao pode tirar carta nenhuma!")
+            }
+        }
+
+    </script>
+
+</body>
+</html>

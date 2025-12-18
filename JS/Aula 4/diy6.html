@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 1px solid green;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="myDiv" class="box">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo sunt quisquam nobis molestiae facilis dolore doloribus similique cupiditate aliquid quis ex dolores eius, odio quibusdam quam? Voluptas tempore minus unde!
+    </div>
+
+    <button onclick="selectBackColor()">Cor de Fundo</button>
+    <button onclick="selectTextColor()">Cor do Texto</button>
+    
+    <script>
+
+        let myDiv = document.getElementById("myDiv");
+
+        function selectBackColor(){
+            let backColor = prompt("Cor de Fundo:");
+            myDiv.style.backgroundColor = backColor;
+        }
+
+        function selectTextColor(){
+            let fontColor = prompt("Cor de Texto")
+            myDiv.style.color = fontColor;
+        }
+
+
+    </script>
+
+</body>
+</html>

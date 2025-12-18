@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="enlarge()">Click me!</button>
+    <button onclick="reset()">Reset</button>
+    
+    <div id="details"></div>
+
+    <script>
+        var details = document.getElementById("details");
+
+        function reset(){
+            details.style.backgroundColor = 'yellow';
+            changeDetailsSize(10);
+        }
+
+        function enlarge(){
+            let dWidth = details.offsetWidth;
+            dWidth += 10;
+
+            changeDetailsSize(dWidth);
+
+            if (dWidth > 500){
+                document.body.style.backgroundColor = "brown";
+            }
+            else {
+                document.body.style.backgroundColor = 'blue';
+            }
+        }
+
+        function changeDetailsSize(w){
+            details.style.width = w + 'px';
+            details.style.height = w + 'px';
+            details.innerText = w;
+        }
+
+    </script>
+
+</body>
+</html>

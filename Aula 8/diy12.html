@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .content {
+            width: 500px;
+            height: 500px;
+            background-color: aqua;
+            position: relative;
+        }
+
+        #right {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        #center {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            /* left: 50%;
+            transform: translate(-50%, -50%); */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <div id="center">CENTER</div>
+        <div id="right">BOTTOM RIGHT</div>
+
+    </div>
+    
+</body>
+</html>

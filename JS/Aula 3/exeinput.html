@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="number" id="num-1">
+    <input type="number" id="num-2">
+    <button onclick="consistNumbers()">Clica me!</button>
+    
+    <script>
+
+        function consistNumbers(){
+            let num1Value = document.getElementById("num-1").value;
+            let num2Value = document.getElementById("num-2").value;
+
+            let result = Number(num1Value) + Number(num2Value);
+            
+            alert(result);
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button onclick="lucky()">Click Me!</button>
+    <p id="details"></p>
+
+    <script>
+
+        function lucky() {
+            let n = prompt("Insira o seu numero da sorte:");
+            n = parseInt(n); // transforma num inteiro
+
+            let p = document.getElementById("details");
+
+            if (n == 777) {
+                success(p);
+            }
+            else {
+                error(p);
+            }
+            //n == 777 ? success(p) : error(p);
+        }
+
+        function success(p) {
+            p.style.color = 'blue';
+            p.style.backgroundColor = 'yellow';
+            p.style.border = "1px solid green";
+            p.innerHTML = "<b>1000000€</b>";
+        }
+
+        function error(p) {
+            let name = prompt("insira o seu nome:")
+            p.style.color = 'yellow';
+            p.style.backgroundColor = 'black';
+            p.style.border = "5px solid red";
+            p.innerHTML = "<b>" + name + "</b>";
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="magic()">Click Me!</button>
+    <p id="details"></p>
+    
+    <script>
+
+        function magic(){
+            let n1 = parseInt(prompt("insira o n1"));
+            let n2 = parseInt(prompt("insira o n2"));
+
+            let sum = n1 + n2;
+
+            let details = document.getElementById("details");
+            details.innerText = sum;
+            if (sum > 100){
+                details.style.color = "blue";
+            }
+            else {
+                details.style.color = 'red';
+            }
+        }
+
+    </script>
+
+</body>
+</html>

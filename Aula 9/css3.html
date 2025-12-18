@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+        }
+
+        #one {
+            background-image: linear-gradient(to right, red, green, blue);
+        }
+
+        #two {
+            background-image: linear-gradient(to left, red, green, blue);
+        }
+
+        #three {
+            background-image: linear-gradient(40deg, red, green, blue);
+        }
+
+        #four {
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+
+        #five {
+            margin-left: 100px;
+            background-color: aliceblue;
+            transform: scale(1);
+        }
+
+        #six {
+            background-color: red;
+            transform: translate(160px, 10px);
+        }
+
+        #seven {
+            background-color: green;
+            transform: rotate(180deg);
+        }
+
+        #eight {
+            background-color: purple;
+            transition: width 4s, height 1s;
+        }
+
+        #eight:hover {
+            width: 400px;
+            height: 400px;
+        }
+
+        #nine {
+            background-color: blueviolet;
+            animation-name: first;
+            animation-duration: 4s;
+            animation-iteration-count: 3;
+
+        }
+
+        @keyframes first {
+            from {
+                background-color: blueviolet;
+            }
+
+            to {
+                background-color: orangered;
+            }
+        }
+
+        #ten {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            position: relative;
+            animation-name: second;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+
+        }
+
+        @keyframes second {
+            0% {
+                background-color: blue;
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                background-color: orangered;
+                left: 200px;
+                top: 0px;
+            }
+
+            50% {
+                background-color: blue;
+                left: 200px;
+                top: 200px;
+            }
+
+            75% {
+                background-color: green;
+                left: 0px;
+                top: 200px;
+            }
+
+            100% {
+                background-color: orangered;
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+    <div id="four"></div>
+    <div id="five">SOPAS</div>
+    <div id="six"></div>
+    <div id="seven">O</div>
+    <div id="eight"></div>
+    <div id="nine"></div>
+    <div id="ten"></div>
+
+
+
+
+</body>
+
+</html>

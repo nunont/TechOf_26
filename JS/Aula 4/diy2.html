@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="sum()">Soma!</button>
+    <p id="result"></p>
+    
+    <script>
+
+        function sum(){
+            var n1 = prompt("Insira o numero 1:");
+            var n2 = prompt("Insira o numero 2:");
+
+            let result = parseFloat(n1) + parseFloat(n2);
+            alert(result);
+
+            document.getElementById("result").innerText = result;
+        }
+
+    </script>
+
+</body>
+</html>
