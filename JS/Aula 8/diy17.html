@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="compute()">Compute Salaries</button>
+    <p id="sum"></p>
+    <p id="average"></p>
+    <p id="above1000"></p>
+
+    <script>
+
+        function compute(){
+
+            let sum = 0;
+            let counterAbove1000 = 0;
+            for (let i = 0; i < 5; i++){
+                let salary = parseInt(prompt("Insira o seu salario:"));
+                sum += salary; // sum = sum + salary
+
+                if (salary > 1000){
+                    counterAbove1000++;
+                }
+
+            }
+            var avg = sum / 5;
+
+            document.getElementById("sum").innerText = "Soma: " + sum;
+            document.getElementById("average").innerText = "Average: " + avg;
+            document.getElementById("above1000").innerHTML = "Above 1000: " + counterAbove1000;
+        }
+
+    </script>
+</body>
+</html>
