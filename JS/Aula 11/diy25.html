@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="findMax()">MAX</button>
+    <p id="max"></p>
+    <script>
+
+        function findMax(){
+            /* let a = parseInt(prompt("A:"));
+            let b = parseInt(prompt("B:"));
+            let c = parseInt(prompt("C:"));
+
+            let max = maxBetween3Numbers(a, b, c); */
+
+            let arr = [];
+            for (let i = 0; i < 3; i++){
+                let temp = parseInt(prompt("Insira 1 nr:"))
+                arr.push(temp);
+            }
+
+            let max = maxBetween3Numbers(arr[0], arr[1], arr[2]);
+
+            document.getElementById("max").innerText = max;
+        }
+
+        function maxBetween3Numbers(n1, n2, n3){
+            /* let max = Math.max(n1, n2, n3);
+            return max;
+
+            let max = n1;
+            if (n2 > max){
+                max = n2;
+            }
+            if (n3 > max){
+                max = n3;
+            }
+            return max; */
+
+            let arr = [n1, n2, n3];
+            let max;
+            for (let i = 0; i < arr.length; i++){
+                if (arr[i] > max){
+                    max = arr[i];
+                }
+            }
+
+            return max;
+
+        }
+
+    </script>
+    
+</body>
+</html>
