@@ -12,21 +12,25 @@
 
 <script>
          function removeNames() {
-
             let input = document.getElementById('name');
 
             let items = document.querySelectorAll('#items li');
 
+            let found = false;
             for (let i = 0; i < items.length; i++){
                 if (items[i].textContent == input.value){
                     items[i].remove();
+                    //items[i].parentNode.removeChild(items[i])
+                    found = true;
                     break;
                 }
             }
 
+            if (!found){
+                alert("Nao econtramos!")
+            }
+
             input.value = '';
-
-
          }
      </script>
 </html>
