@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        const valueExistsInArray = (arr, value) => {
+            /* let found = false;
+            for(let i = 0; i < arr.lenhth; i++){
+                if (arr[i] == value){
+                    found = true;
+                }
+            }
+
+            return found; */
+            let index = arr.indexOf(value);
+            if (index == -1){
+                return false;
+            }
+            else {
+                return true;
+            }
+
+            /* return index == -1; */
+        }
+
+        let numbers = [2, 6, 9, 2];
+        let v = parseInt(prompt("dica um nr:"));
+        const found = valueExistsInArray(numbers, v);
+        if (found){
+            alert("Encontrou");
+        }
+        else {
+            alert("Não encontrou!")
+        }
+
+    </script>
+    
+</body>
+</html>
