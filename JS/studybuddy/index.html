@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>StudyBuddy — Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body data-page="dashboard">
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html">StudyBuddy</a>
+
+      <nav class="nav">
+        <a href="index.html" aria-current="page">Dashboard</a>
+        <a href="sessions.html">Sessões</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Planner de estudo simples</h1>
+        <p class="muted">Sem cliques. Filtra e ordena pelas query params no URL.</p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="sessions.html">Ver sessões</a>
+          <a class="btn" href="sessions.html?status=planned&sort=dateAsc">Próximas</a>
+          <a class="btn" href="sessions.html?status=done&sort=dateDesc">Concluídas</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="label">Hoje</div>
+        <div id="todayStr" class="muted"></div>
+        <div class="divider"></div>
+        <div id="dashboardSummary" class="summary"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Próximas sessões</h2>
+        <p class="muted">Renderizadas automaticamente a partir de <code>data.js</code>.</p>
+      </div>
+
+      <div id="upcomingList" class="list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div class="muted">StudyBuddy — Protótipo educativo (HTML/CSS/JS)</div>
+      <div class="footer-links">
+        <a href="sessions.html?subject=programacao">Programação</a>
+        <a href="sessions.html?priority=high">Alta prioridade</a>
+        <a href="sessions.html?minDuration=45">≥ 45 min</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

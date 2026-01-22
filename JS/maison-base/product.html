@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Produto — Maison Canine</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body data-page="product">
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html">Maison Canine</a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="catalog.html">Catálogo</a>
+        <a href="cart.html">Carrinho</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <div class="section-head">
+        <h1 class="h2">Detalhe do produto</h1>
+        <p class="muted">Abrir com <code>product.html?id=collar-001</code></p>
+      </div>
+
+      <div id="productDetails" class="product-details"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2 class="h3">Relacionados</h2>
+        <p class="muted">Mesma categoria ou cor.</p>
+      </div>
+      <div id="relatedGrid" class="grid grid-4"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div class="muted">Sem carrinho interativo (modo demo).</div>
+      <div class="footer-links">
+        <a href="catalog.html">Voltar ao catálogo</a>
+        <a href="cart.html">Ver carrinho</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

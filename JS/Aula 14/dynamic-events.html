@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <input id="i-nr" type="number" placeholder="Nr de Quadrados">
+  <button onclick="generate()">Gerar</button>
+  <br>
+  <script>
+
+    function generate(){
+      let nr = parseInt(document.getElementById('i-nr').value);
+      for(let i = 0; i < nr; i++){
+        let square = document.createElement('div');
+        square.id = 's-' + i;
+        square.style.width = '100px';
+        square.style.height = '100px';
+        square.style.border = '1px black solid';
+        square.style.backgroundColor = 'blue';
+        square.style.marginBottom = '8px'
+        square.innerHTML = i;
+        square.onclick = () => {
+          alert('Clicaste na caixa ' + i)
+          square.style.backgroundColor = 'green'
+        }
+        square.onmouseenter = () => {
+          square.style.backgroundColor = 'yellow'
+        }
+        document.body.appendChild(square);
+      }
+    }
+
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body onload="loadPage()">
+
+  <div id="myDiv" style="background-color: blue; color: white; height: 100px; width: 100px;">
+    Algum texto
+  </div>
+
+  <div id="otherDiv" style="background-color: orange; height: 100px; width: 100px;">
+    Outro texto
+  </div>
+
+
+  <button onclick="changeColorToGreen()">Guardar</button>
+  
+  <script>
+
+    function loadPage(){
+      //alert('A pagina foi carregada pelo broswer');
+    }
+
+    let wasClicked = false;
+    let myDiv = document.getElementById('myDiv');
+    myDiv.onclick = function(){
+      myDiv.style.backgroundColor = 'red';
+      wasClicked = true;
+    }
+    myDiv.onmouseover = () => {
+      myDiv.style.backgroundColor = 'yellow';
+    }
+    myDiv.onmouseleave = () => {
+      if (wasClicked == false){
+        myDiv.style.backgroundColor = 'blue';
+      }
+    }
+
+    function changeColorToGreen(){
+      otherDiv.style.backgroundColor = 'green';
+    }
+
+    let otherDiv = document.getElementById('otherDiv');
+    otherDiv.addEventListener('mouseover', changeColorToGreen);
+
+
+  </script>
+
+</body>
+</html>
