@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        const shift = {
+            shiftId: '1',
+            workPlace: 'L.A',
+            workers: [],
+            start: "",
+            end: "",
+            startShift(startTime = '8:00') {
+                console.log(`Shift started! ${startTime}`);
+                this.start = startTime;
+            },
+            endShift(endTime = '0:00') {
+                console.log(`Shift started! ${endTime}`);
+            },
+            workerForShift(w1, w2, w3) {
+                console.log(`Worker at first shift ${w1}, 
+                    ${w2} and ${w3}`);
+            }
+        };
+
+        console.log(shift);
+        shift.startShift('04:30');
+        console.log(shift);
+        shift.endShift('12:00');
+
+        function helloBruna(){
+            console.log('Parabens Bruna!')
+        }
+
+        helloBruna();
+                helloBruna();
+
+                        helloBruna();
+
+                                helloBruna();
+
+                                        helloBruna();
+
+                                        
+
+    </script>
+
+</body>
+
+</html>

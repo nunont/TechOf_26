@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        var fullstack = {
+            name: "Fullstack 2026",
+            students: [],
+            projects: [
+                {
+                    name: 'HTML/CSS Website',
+                    maxDate: new Date(2026, 1, 32)
+                }
+            ],
+            addStudents: function(student) {
+                this.students.push(student);
+                console.log(`Novo Estudante ${student} foi adicionado ao curso de ${this.name}`)
+            },
+            addProject: function(project){
+                this.projects.push(project)
+            }
+        }
+
+        console.log(fullstack.students);
+        fullstack.addStudents('Bruna Caetano');
+        console.log(fullstack.students);
+
+        fullstack.addProject({ 
+            name: 'JS Final Hotel Website',
+            maxDate: new Date(2026, 2, 28),
+            minAproval: 9.5
+        })
+        console.log(fullstack.projects)
+
+        //Nao funciona pq apenas existe no contexto do objeto fullstack
+        /* addProject({
+            name : 'Novo Projecto'
+        }) */
+        
+        let english = {
+            name: "English 2026",
+            students: [],
+            projects: []
+        }
+
+        console.log('E students', english.students)
+        
+        const fAddStudents = fullstack.addStudents;
+
+        fAddStudents.call(english, 'Marina')
+        console.log('E students 2', english.students)
+
+        let data = {
+            name: "Data 2026",
+            students: [],
+            projects: []
+        }
+
+        fAddStudents.call(data, 'Tiago')
+        console.log(data.students)
+
+        const fAddDataProjects = fullstack.addProject.bind(data);
+        fAddDataProjects({
+            name: 'Excel'
+        })
+        console.log(data.projects)
+
+        const fAddEnglishProjects = fullstack.addProject.bind(english);
+        fAddEnglishProjects({
+            name: 'Read a book'
+        })
+        console.log(english.projects)
+
+
+    </script>
+    
+</body>
+</html>

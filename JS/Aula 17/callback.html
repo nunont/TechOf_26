@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function greeting(name){
+            alert(`Hello my friend! ${name}`);
+        }
+
+        function greetingConsole(name){
+            console.log(`Hello my friend! ${name}`)
+        }
+
+        function getUserName(callback){
+            let name = prompt("Insira o seu nome:");
+            callback(name);
+        }
+
+        /* getUserName(greetingConsole);
+        getUserName(greeting) */
+
+        getUserName((name) => {
+            console.info(name);
+            alert(name)
+            var age = prompt('Insira a Idade:')
+            console.error(age);
+        })
+        
+
+
+    </script>
+    
+</body>
+</html>

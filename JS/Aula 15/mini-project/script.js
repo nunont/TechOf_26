@@ -72,6 +72,7 @@ function gameOver(){
 }
 
 document.querySelector('.playAgain').addEventListener('click', reset);
+
 function reset(){
   document.body.classList.add('backGroundBody');
   counter = 0;
