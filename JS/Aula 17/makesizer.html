@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Hello </h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque voluptatum mollitia blanditiis consequuntur
+        perspiciatis aliquid illo magni odio labore, doloremque a beatae nam dolorem, delectus saepe. Quod quis saepe
+        sit.</p>
+
+    <h2>My friends</h2>
+    <ul>
+        <li>Bruna</li>
+        <li>Maria</li>
+        <li>João</li>
+        <li>Carlos</li>
+    </ul>
+
+    <button onclick="size12()">Size 12</button>
+    <button onclick="size14()">Size 14</button>
+    <button onclick="size16()">Size 16</button>
+
+    <script>
+        function makeSizer(size) {
+            var color = 'black';
+            if (size == 12){
+                color = 'red';
+            }
+            else if (size == 14){
+                color = 'green';
+            }
+            else {
+                color = 'pink';
+            }
+            return function () {
+                document.body.style.fontSize = size + 'px';
+                document.body.style.color = color;
+            };
+        }
+
+        var size12 = makeSizer(12);
+        var size14 = makeSizer(14);
+        var size16 = makeSizer(16);
+    </script>
+
+</body>
+
+</html>
