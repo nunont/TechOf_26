@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        var users = [
+            {
+                id: 1,
+                name: 'Mike',
+                age: 30,
+                address: {
+                    street: '123 Main St',
+                    city: 'New York'
+                },
+                contacts: [
+                    {
+                        email: 'mike@example.com',
+                        phone: '555-1234'
+                    },
+                    {
+                        email: 'mike.work@example.com',
+                        phone: '555-5678'
+                    }
+                ]
+            },
+            {
+                id: 2,
+                name: 'Jane',
+                age: 25,
+                address: {
+                    street: '456 Oak St',
+                    city: 'Los Angeles'
+                },
+                contacts: [
+                    {
+                        email: 'jane@example.com',
+                        phone: '555-5678'
+                    }
+                ]
+            },
+            {
+                id: 3,
+                name: 'John',
+                age: 35,
+                address: {
+                    street: '789 Pine St',
+                    city: 'Chicago'
+                },
+                contacts: [
+                    {
+                        email: 'john@example.com',
+                        phone: '555-9012'
+                    }
+                ]
+            },
+            {
+                id: 4,
+                name: 'Mary',
+                age: 28,
+                address: {
+                    street: '321 Maple St',
+                    city: 'Houston'
+                },
+                contacts: [
+                    {
+                        email: 'mary@example.com',
+                        phone: '555-3456'
+                    }
+                ]
+            }
+        ];
+
+        let names = users.map(el => el.name);
+        console.log(names)
+        let ages = users.map(el => el.age);
+        console.log(ages);
+
+
+        let idNames = users.map(m => {
+            return { id: m.id, name: m.name, address: m.address }
+        });
+        console.log(idNames)
+
+        let cities = users.map(el => el.address.city);
+        console.log(cities)
+
+        let emails = users.map(el => el.contacts.map(c =>c.email))
+        console.log(emails)
+
+        let phones = users
+            .map(user => user.contacts
+                .map(contact => contact.phone)
+            )
+        console.log(phones)
+
+
+
+    </script>
+
+</body>
+
+</html>

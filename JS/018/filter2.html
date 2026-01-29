@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        var users = [
+            {
+                id: 1,
+                name: 'Mike',
+                age: 30,
+                address: {
+                    street: '123 Main St',
+                    city: 'New York'
+                },
+                contacts: [
+                    {
+                        email: 'mike@example.com',
+                        phone: '555-1234'
+                    },
+                    {
+                        email: 'mike.work@example.com',
+                        phone: '555-5678'
+                    }
+                ]
+            },
+            {
+                id: 2,
+                name: 'Jane',
+                age: 25,
+                address: {
+                    street: '456 Oak St',
+                    city: 'Los Angeles'
+                },
+                contacts: [
+                    {
+                        email: 'jane@example.com',
+                        phone: '555-5678'
+                    }
+                ]
+            },
+            {
+                id: 3,
+                name: 'John',
+                age: 35,
+                address: {
+                    street: '789 Pine St',
+                    city: 'Chicago'
+                },
+                contacts: [
+                    {
+                        email: 'john@example.com',
+                        phone: '555-9012'
+                    }
+                ]
+            },
+            {
+                id: 4,
+                name: 'Mary',
+                age: 28,
+                address: {
+                    street: '321 Maple St',
+                    city: 'Houston'
+                },
+                contacts: [
+                    {
+                        email: 'mary@example.com',
+                        phone: '555-3456'
+                    }
+                ]
+            }
+        ];
+
+        var above30 = users.filter(user => user.age >= 30);
+        console.log(above30)
+
+        let abovee30Names = users
+            .filter(user => user.age >= 30)
+            .map(m => {
+                return { name: m.name, age: m.age}
+            });
+        console.log(abovee30Names)
+
+
+    </script>
+
+</body>
+
+</html>

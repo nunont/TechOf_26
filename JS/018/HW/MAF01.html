@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var persons = {
+            username: '',
+            password: '',
+
+            hobbies: [],
+            addHobby : function(hobby, description){
+                const objHobby = {
+                    hobby : hobby,
+                    description : description
+                };
+                this.hobbies.push(objHobby);
+
+                console.log(`A new hobby for ${this.username}`, objHobby.hobby);
+            }
+        };
+
+        const mike = {
+            username: 'Mike',
+            password: '123',
+            hobbies: []
+        }
+
+        /**
+        const mikeAddHobby = persons.addHobby;
+        mikeAddHobby.call(mike, 'Karting', 'Riding a kart');
+        */
+
+        const mikeAddHobby = persons.addHobby.bind(mike);
+        mikeAddHobby('Futebol', "Jogar à bola!")
+        console.log(mike)
+
+    </script>
+    
+</body>
+</html>
