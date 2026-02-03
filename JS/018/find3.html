@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        var categories = [
+            {
+                id: 1,
+                name: 'PC'
+            },
+            {
+                id: 2,
+                name: 'Phones'
+            },
+            {
+                id: 3,
+                name: 'Other'
+            }
+        ];
+
+        var articles = [
+            {
+                id: 1,
+                name: 'Laptop Dell XPS 15',
+                price: 1500,
+                categoryId: 1
+            },
+            {
+                id: 2,
+                name: 'IPhone 19',
+                price: 800,
+                categoryId: 2
+            },
+            {
+                id: 3,
+                name: 'Samsung S34',
+                price: 600,
+                categoryId: 2
+            },
+            {
+                id: 4,
+                name: 'IPhone 16',
+                price: 800,
+                categoryId: 2
+            },
+        ];
+
+        let selectedCategoty = 2;
+        let filterArticles = articles.filter(a => a.categoryId == selectedCategoty);
+        console.log(filterArticles);
+
+
+        let idOnUrl = 3;
+        let articleToShow = articles.find(f => f.id == idOnUrl);
+        console.log(articleToShow)
+
+        let iPhone = articles.find(f => f.name == 'IPhone 19');
+        console.log(iPhone);
+
+        let searchIphones = articles
+            .filter(f => f.name.toUpperCase().includes('iphone'.toUpperCase()))
+        console.log(searchIphones)
+
+    
+
+
+    </script>
+
+</body>
+
+</html>

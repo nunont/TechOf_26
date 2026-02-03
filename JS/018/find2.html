@@ -92,29 +92,9 @@
                 ]
             }
         ];
-
-        let names = users.map(el => el.name);
-        console.log(names)
-        let ages = users.map(el => el.age);
-        console.log(ages);
-
-
-        let idNames = users.map(m => {
-            return { id: m.id, name: m.name, address: m.address }
-        });
-        console.log(idNames)
-
-        let cities = users.map(el => el.address.city);
-        console.log(cities)
-
-        let emails = users.map(el => el.contacts.map(c =>c.email))
-        console.log(emails)
-
-        let phones = users
-            .map(user => user.contacts
-                .map(contact => contact.phone)
-            )
-        console.log(phones)
+        
+        let mary = users.find(f => f.id == 4);
+        console.log(mary);
 
 
     </script>

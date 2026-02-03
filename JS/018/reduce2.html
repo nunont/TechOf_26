@@ -79,7 +79,7 @@
             {
                 id: 5,
                 name: 'Bruna',
-                age: 28,
+                age: 16,
                 address: {
                     street: '322 Maple St',
                     city: 'Houston'
@@ -93,28 +93,27 @@
             }
         ];
 
-        let names = users.map(el => el.name);
-        console.log(names)
-        let ages = users.map(el => el.age);
-        console.log(ages);
+        let usersByCity = users.reduce((group, current) => {
+            if (!group[current.address.city]){
+                group[current.address.city] = [];
+            }
+
+            group[current.address.city].push(current);
+            return group;
+        }, {})
+        console.log(usersByCity)
 
 
-        let idNames = users.map(m => {
-            return { id: m.id, name: m.name, address: m.address }
-        });
-        console.log(idNames)
-
-        let cities = users.map(el => el.address.city);
-        console.log(cities)
-
-        let emails = users.map(el => el.contacts.map(c =>c.email))
-        console.log(emails)
-
-        let phones = users
-            .map(user => user.contacts
-                .map(contact => contact.phone)
-            )
-        console.log(phones)
+        var usersLegalAge = users.reduce((group, user) => {
+            if (user.age < 18){
+                group.minors.push(user);
+            }
+            else {
+                group.adults.push(user);
+            }
+            return group;
+        }, { minors: [], adults: [] })
+        console.log(usersLegalAge);
 
 
     </script>

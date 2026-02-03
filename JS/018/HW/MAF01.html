@@ -30,11 +30,6 @@
             hobbies: []
         }
 
-        /**
-        const mikeAddHobby = persons.addHobby;
-        mikeAddHobby.call(mike, 'Karting', 'Riding a kart');
-        */
-
         const mikeAddHobby = persons.addHobby.bind(mike);
         mikeAddHobby('Futebol', "Jogar à bola!")
         console.log(mike)

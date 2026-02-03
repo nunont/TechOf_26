@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .square {
+            width: 100px;
+            height: 100px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="red" class="square" style="background-color: red;">
+
+    </div>
+    <div id="blue" class="square" style="background-color: blue;">
+
+    </div>
+    <div id="green" class="square" style="background-color: green;">
+
+    </div>
+
+    <div>
+        <img id="photo" src="" alt="sdaasdsa" width="100" height="100">
+
+    </div>
+
+    <script>
+
+        let red = document.getElementById('red');
+        let blue = document.getElementById('blue');
+        let green = document.getElementById('green');
+
+        let img = document.getElementById('photo');
+
+        const redClick = () => {
+            alert('Clicaste no RED')
+            img.setAttribute('src', 'data:image/png;base64,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')
+
+        };
+
+        red.addEventListener('click', redClick);
+        blue.onclick = () => alert('Clicaste no BLUE');
+
+        green.onclick = () => {
+            alert('Click Verde')
+            red.removeEventListener('click', redClick)
+            //blue.remove();
+        };
+
+
+    </script>
+    
+</body>
+</html>

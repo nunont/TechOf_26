@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="iTask" placeholder="Add Task">
+    <button onclick="addTask()">Add Task</button>
+    
+    <ul id="myTasks">
+
+    </ul>
+
+    <script>
+
+        let tasks = [];
+
+        function addTask(){
+            let iValue = document.getElementById('iTask').value;
+
+            if (tasks.some(task => task == iValue)){
+                alert('Essa tarefa ja existe')
+                return;
+            }
+
+            tasks.push(iValue);
+            
+            let li = document.createElement('li');
+            li.innerText = iValue;
+
+            document.getElementById('myTasks').appendChild(li);
+            document.getElementById('iTask').value = '';
+
+            console.log(tasks);
+        }
+        
+            
+    </script>
+    
+</body>
+</html>

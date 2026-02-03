@@ -1,7 +1,7 @@
 // data.js (sem módulos) — expõe globals
 // Produtos (12) com dados suficientes para filtros/ordenar/detalhe
 
-window.PRODUCTS = [
+var PRODUCTS = [
   {
     id: "collar-001",
     name: "Coleira Classic — Castanho",
