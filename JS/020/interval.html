@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="stop()">PARAR</button>
+
+    <script>
+
+        var name = prompt("Insira o nome")
+
+        const intervalId = setInterval((a) => {
+            console.log('Hello', a)
+        }, 1000, name)
+
+        const interval3Id = setInterval(() => {
+            console.log('Goodbye')
+        }, 1000)
+
+        console.log('Interval Id', intervalId);
+
+        function stop(){
+            var stopid = prompt(`${intervalId} ou ${interval3Id}`)
+            clearInterval(stopid);
+        }
+
+    </script>
+    
+</body>
+</html>

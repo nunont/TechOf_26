@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        var timestamp = new Date();
+        console.log(timestamp);
+
+        var birthday = new Date(1998, 0, 17);
+        console.log(birthday);
+
+        var data = new Date('2026-01-23T16:00')
+        console.log(data);
+        console.log('Ano', data.getFullYear())
+        console.log('Mes', data.getMonth())
+        console.log('Dia da semana', data.getDay())
+
+        console.log('Dia do mes',data.getDate())
+
+        data.setMonth(11)
+        console.log(data)
+
+
+    </script>
+    
+</body>
+</html>
