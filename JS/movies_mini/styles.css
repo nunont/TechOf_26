@@ -1,0 +1,42 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightblue;
+    gap: 1rem;
+}
+
+.movie {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    width: 25%;
+
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.movie h1 {
+    margin: 0;
+}
+
+.movie .m-date-genre {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.movie .rating {
+    color: orange;
+    font-weight: bold;
+}
+
+.delB {
+    position: absolute;
+    right: 0;
+    top: 0rem;
+}

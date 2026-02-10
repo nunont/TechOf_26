@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="action-container">
+        <input type="text" id="iGenre" placeholder="Genre">
+        <button onclick="filterByGenre()">Search</button>
+        
+        <select name="dsa" id="gDrop" >
+            <option value=""></option>
+        </select>
+
+        <input type="text" id="iTitle" placeholder="Title">
+        <button onclick="findByTitle()">Search By Title</button>
+    </div>
+    <div id="creater-container">
+        <input type="text" id="icTitle" placeholder="Title">
+        <input type="text" id="icYear" placeholder="Year">
+        <input type="text" id="icGenre" placeholder="Genre">
+
+        <button onclick="createMovie()">Create Movie</button>
+    </div>
+    <div>
+        <button onclick="sortToLow()">⬇️</button>
+        <button onclick="sortToHigh()">⬆️</button>
+    </div>
+    <div class="container" id="movies-section">
+        <div class="movie">
+            <h1>Title</h1>
+            <div class="m-date-genre">
+                <span>2026</span>
+                <span>Genre</span>
+            </div>
+            <div>
+                <span class="rating">8</span>
+                <span>
+                    <button onclick="decreaseRating(id)">-</button>
+                    <button onclick="increaseRating(id)">+</button>
+                </span>
+            </div>
+            <button class="delB" onclick="deleteMovie(id)">X</button>
+        </div>
+    </div>
+
+    <div>
+        <input type="text" id="iUser" placeholder="User">
+        <button onclick="saveUser()"></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
