@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="number">
+    <button onclick="sumNNumbers()">Calcular</button>
+    <script>
+
+        function sumNNumbers(){
+            let number = document.getElementById('number').value;
+            number = parseInt(number);
+
+            let result = sumFactorial(number);
+
+            alert(result);
+        }
+
+        function sumFactorial(n){
+            if (n == 1){
+                return 1;
+            }
+            return n + sumFactorial(n - 1);
+        }
+
+
+
+    </script>
+    
+</body>
+</html>

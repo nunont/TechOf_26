@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input id="iCountry" placeholder="Country">
+    <button onclick="getCountry()">Search</button>
+
+    <h1 id="cName"></h1>
+    <p>População: <span id="cPop"></span></p>
+    <p>Capital: <span id="cCapital"></span></p>
+    <img src="" alt="" id="cFlag">
+
+    <script>
+
+        const cName = document.getElementById("cName");
+        const cPop = document.getElementById("cPop");
+        const cCapital = document.getElementById("cCapital");
+        const cFlag = document.getElementById("cFlag");
+
+        function getCountry(){
+            let countryName = document.getElementById('iCountry').value;
+
+            fetch(`https://restcountries.com/v2/name/${countryName}`)
+                .then(async response => {
+                    var data = await response.json();
+                    data = data[0];
+
+                    cName.innerText = data.name;
+                    cPop.innerText = data.population;
+                    cCapital.innerHTML = data.capital;
+
+                    cFlag.src = data.flags.png;
+                })
+                .catch(e => {
+                    console.log('erro cenas', e)
+                });
+        }
+
+    </script>
+    
+</body>
+</html>
