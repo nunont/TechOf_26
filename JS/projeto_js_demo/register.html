@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/register.css">
+</head>
+<body>
+
+    <div class="centered">
+        <div id="register-section" class="container">
+            <h1>Register</h1>
+
+            <div id="regs-form">
+                
+                <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                <input type="date" name="dateOfBirth" id="dateOfBirth" placeholder="Date of Birth">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+                <input type="password" id="confirmPassword" placeholder="Confirm Password">
+                
+                <button onclick="register()">Register</button>
+            </div>
+
+        </div>
+    </div>
+    
+    
+    <script src="scripts/data.js"></script>
+    <script src="scripts/register.js"></script>
+</body>
+</html>
