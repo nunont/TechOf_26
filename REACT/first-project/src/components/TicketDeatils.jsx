@@ -1,10 +1,22 @@
-function TicketDetails({ name, gender, seat }) {
+import { useState } from "react";
+
+function TicketDetails(props) {
+
+  const [used, setUsed] = useState('No');
+
+  function clickOnUseButton(){
+    setUsed('Yes');
+  }
+
   return (
     <div>
       <h1>Ticket Details</h1>
-      <p>Name: {name}</p>
-      <p>Gender: {gender}</p>
-      <p>Seat: {seat}</p>
+      <h3>USED: {used}</h3>
+      <p>Name: {props.name}</p>
+      <p>Gender: {props.gender}</p>
+      <p>Seat: {props.seat}</p>
+      <p>Destination: {props.destination}</p>
+      <button onClick={clickOnUseButton}>Usar</button>
     </div>
   );
 }
