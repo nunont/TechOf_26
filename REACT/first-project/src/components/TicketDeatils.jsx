@@ -2,21 +2,22 @@ import { useState } from "react";
 
 function TicketDetails(props) {
 
-  const [used, setUsed] = useState('No');
+  const [used, setUsed] = useState(false);
 
   function clickOnUseButton(){
-    setUsed('Yes');
+    setUsed(true);
   }
 
   return (
     <div>
       <h1>Ticket Details</h1>
-      <h3>USED: {used}</h3>
+      <h3>USED: {used ? "Yes" : "No"}</h3>
       <p>Name: {props.name}</p>
       <p>Gender: {props.gender}</p>
       <p>Seat: {props.seat}</p>
       <p>Destination: {props.destination}</p>
-      <button onClick={clickOnUseButton}>Usar</button>
+      { used === false && <button onClick={clickOnUseButton}>Usar</button> }
+      
     </div>
   );
 }
