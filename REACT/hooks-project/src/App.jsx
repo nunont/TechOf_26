@@ -7,6 +7,10 @@ import Seconds from './components/Seconds'
 import UserDisplay from './components/UserDisplay'
 import UserContext from './context/UserContext'
 import UserForm from './components/UserForm'
+import ProductsFilterList from './components/ProductsFilterList'
+import Duble from './components/Duble'
+import ShowAndHide from './components/ShowAndHide'
+import UsersFilterList from './components/UsersFilterList'
 
 function App() {
 
@@ -20,8 +24,12 @@ function App() {
       <Counter />
       <Father/> */}
 
-      <UserDisplay />
-      <UserForm />
+      {/* <UserDisplay />
+      <UserForm />*/}
+      <ProductsFilterList /> 
+      <UsersFilterList />
+      {/* <Duble />
+      <ShowAndHide /> */}
     </UserContext.Provider>
   </>)
 }
