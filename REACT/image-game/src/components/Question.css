@@ -1,0 +1,50 @@
+
+.q-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+
+.q-image h1 {
+  font-size: 8rem;
+}
+
+.q-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.q-input input {
+  font-size: 2rem;
+  padding: 0.5rem;
+  width: 200px;
+}
+
+.q-input button {
+  font-size: 2rem;
+  width: 100%;
+  padding: 1.5rem;
+  background: #22C1C3;
+  background: linear-gradient(287deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.q-input button:hover {
+  background: #22C1C3;
+  background: linear-gradient(287deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+  filter: brightness(1.2);
+}
+
+.q-input button:active {
+  background: #22C1C3;
+  background: linear-gradient(287deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+  filter: brightness(0.8);
+}

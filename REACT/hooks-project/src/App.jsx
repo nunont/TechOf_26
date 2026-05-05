@@ -11,6 +11,7 @@ import ProductsFilterList from './components/ProductsFilterList'
 import Duble from './components/Duble'
 import ShowAndHide from './components/ShowAndHide'
 import UsersFilterList from './components/UsersFilterList'
+import DIY15 from './components/DIY15'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       <UsersFilterList />
       {/* <Duble />
       <ShowAndHide /> */}
+      <DIY15 />
     </UserContext.Provider>
   </>)
 }
