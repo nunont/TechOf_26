@@ -28,6 +28,6 @@ function createTask(category, name, description){
         fs.writeFileSync(filePath, description);
         console.log('Tarefa criada com Sucesso')
     } catch (error) {
-        console.error(erro);
+        console.error(error);
     }
 }
