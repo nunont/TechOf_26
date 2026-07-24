@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Bola de Futebol",
+        "category": "Desporto",
+        "price": 29.99,
+        "description": "Bola de futebol oficial, perfeita para jogos e treinos."
+    },
+    {
+        "id": 3,
+        "name": "Barbie",
+        "category": "Brinquedos",
+        "price": 19.99,
+        "description": "Boneca Barbie com acessórios, perfeita para brincar e colecionar."
+    },
+    {
+        "id": 4,
+        "name": "Ferrari F450",
+        "category": "Carros Miniatura",
+        "price": 9.5,
+        "description": "Carro miniatura ferrari F450"
+    },
+    {
+        "id": 5,
+        "name": "Raquete Tenis",
+        "category": "Desporto",
+        "price": 200.5,
+        "description": "Raquete de tenis para jovens e adultos"
+    },
+    {
+        "id": 6,
+        "name": "Raquete Padel",
+        "category": "Desporto",
+        "price": 100.5,
+        "description": "Raquete de padel para jovens e adultos"
+    }
+]
