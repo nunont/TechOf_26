@@ -1,0 +1,290 @@
+[
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a67" },
+    "name": "Nuno Marques",
+    "email": "nuno.marques@mmlimited.pt",
+    "address": {
+      "street": "Rua das Ondas n33 1º Drt",
+      "postalCode": "8800-343",
+      "city": "Tavira",
+      "district": "Algarve",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a68" },
+    "name": "Beatriz Coelho",
+    "email": "beatriz.coelho@gmail.com",
+    "address": {
+      "street": "Avenida da Praia n12 2º Esq",
+      "postalCode": "8135-108",
+      "city": "Albufeira",
+      "district": "Algarve",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a69" },
+    "name": "Ricardo Fonseca",
+    "email": "ricardo.fonseca@outlook.pt",
+    "address": {
+      "street": "Rua do Mercado n7",
+      "postalCode": "8600-315",
+      "city": "Lagos",
+      "district": "Algarve",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a6a" },
+    "name": "Sofia Pereira",
+    "email": "sofia.pereira@sapo.pt",
+    "address": {
+      "street": "Travessa dos Pescadores n5",
+      "postalCode": "8500-802",
+      "city": "Portimão",
+      "district": "Algarve",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a6b" },
+    "name": "Tiago Rocha",
+    "email": "tiago.rocha@gmail.com",
+    "address": {
+      "street": "Rua Direita n88 3º Dto",
+      "postalCode": "8700-355",
+      "city": "Olhão",
+      "district": "Algarve",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a6c" },
+    "name": "Mariana Lopes",
+    "email": "mariana.lopes@hotmail.com",
+    "address": {
+      "street": "Rua Almirante Reis n210",
+      "postalCode": "1150-020",
+      "city": "Lisboa",
+      "district": "Lisboa",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a6d" },
+    "name": "João Almeida",
+    "email": "joao.almeida@mmlimited.pt",
+    "address": {
+      "street": "Rua de Santa Catarina n45",
+      "postalCode": "4000-447",
+      "city": "Porto",
+      "district": "Porto",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a6e" },
+    "name": "Catarina Ribeiro",
+    "email": "catarina.ribeiro@gmail.com",
+    "address": {
+      "street": "Rua dos Clérigos n19",
+      "postalCode": "4050-201",
+      "city": "Porto",
+      "district": "Porto",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a6f" },
+    "name": "André Santos",
+    "email": "andre.santos@sapo.pt",
+    "address": {
+      "street": "Rua do Comércio n3",
+      "postalCode": "3000-217",
+      "city": "Coimbra",
+      "district": "Coimbra",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a70" },
+    "name": "Inês Carvalho",
+    "email": "ines.carvalho@outlook.pt",
+    "address": {
+      "street": "Largo da Sé n2",
+      "postalCode": "3000-236",
+      "city": "Coimbra",
+      "district": "Coimbra",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a71" },
+    "name": "Miguel Teixeira",
+    "email": "miguel.teixeira@gmail.com",
+    "address": {
+      "street": "Rua de Camões n60",
+      "postalCode": "4700-032",
+      "city": "Braga",
+      "district": "Braga",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a72" },
+    "name": "Ana Martins",
+    "email": "ana.martins@mmlimited.pt",
+    "address": {
+      "street": "Rua dos Chãos n14",
+      "postalCode": "4700-118",
+      "city": "Braga",
+      "district": "Braga",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a73" },
+    "name": "Pedro Nogueira",
+    "email": "pedro.nogueira@hotmail.com",
+    "address": {
+      "street": "Rua da Restauração n25",
+      "postalCode": "8800-500",
+      "city": "Tavira",
+      "district": "Algarve",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a74" },
+    "name": "Carla Sousa",
+    "email": "carla.sousa@sapo.pt",
+    "address": {
+      "street": "Rua 5 de Outubro n9",
+      "postalCode": "8800-410",
+      "city": "Tavira",
+      "district": "Algarve",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a75" },
+    "name": "Diogo Cardoso",
+    "email": "diogo.cardoso@gmail.com",
+    "address": {
+      "street": "Calle Mayor n17",
+      "postalCode": "28013",
+      "city": "Madrid",
+      "district": "Madrid",
+      "country": "Spain"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a76" },
+    "name": "Lucía Fernández",
+    "email": "lucia.fernandez@gmail.es",
+    "address": {
+      "street": "Carrer de Balmes n102",
+      "postalCode": "08008",
+      "city": "Barcelona",
+      "district": "Cataluña",
+      "country": "Spain"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a77" },
+    "name": "Marco Rossi",
+    "email": "marco.rossi@libero.it",
+    "address": {
+      "street": "Via Roma n45",
+      "postalCode": "20121",
+      "city": "Milano",
+      "district": "Lombardia",
+      "country": "Italy"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a78" },
+    "name": "Giulia Ferrari",
+    "email": "giulia.ferrari@libero.it",
+    "address": {
+      "street": "Via Dante n8",
+      "postalCode": "20122",
+      "city": "Milano",
+      "district": "Lombardia",
+      "country": "Italy"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a79" },
+    "name": "Camille Dubois",
+    "email": "camille.dubois@orange.fr",
+    "address": {
+      "street": "Rue de Rivoli n120",
+      "postalCode": "75001",
+      "city": "Paris",
+      "district": "Île-de-France",
+      "country": "France"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a7a" },
+    "name": "Julien Bernard",
+    "email": "julien.bernard@orange.fr",
+    "address": {
+      "street": "Avenue des Champs n8",
+      "postalCode": "75008",
+      "city": "Paris",
+      "district": "Île-de-France",
+      "country": "France"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a7b" },
+    "name": "Helena Faria",
+    "email": "helena.faria@mmlimited.pt",
+    "address": {
+      "street": "Rua da Liberdade n77",
+      "postalCode": "8800-620",
+      "city": "Tavira",
+      "district": "Algarve",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a7c" },
+    "name": "Bruno Correia",
+    "email": "bruno.correia@gmail.com",
+    "address": {
+      "street": "Rua José Falcão n30",
+      "postalCode": "8135-201",
+      "city": "Albufeira",
+      "district": "Algarve",
+      "country": "Portugal"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a7d" },
+    "name": "Emma Schmidt",
+    "email": "emma.schmidt@gmx.de",
+    "address": {
+      "street": "Hauptstraße n21",
+      "postalCode": "10115",
+      "city": "Berlin",
+      "district": "Berlin",
+      "country": "Germany"
+    }
+  },
+  {
+    "_id": { "$oid": "6a6b8e5e6a15d0daba9d8a7e" },
+    "name": "Rita Antunes",
+    "email": "rita.antunes@sapo.pt",
+    "address": {
+      "street": "Rua Vasco da Gama n18",
+      "postalCode": "8600-604",
+      "city": "Lagos",
+      "district": "Algarve",
+      "country": "Portugal"
+    }
+  }
+]
