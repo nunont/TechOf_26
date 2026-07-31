@@ -1,0 +1,21 @@
+{
+  "name": "cinema-api",
+  "version": "1.0.0",
+  "description": "A cinema and movies api",
+  "keywords": [
+    "movies.",
+    "actors",
+    "cinema"
+  ],
+  "license": "MIT",
+  "author": "Nuno Marques",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongodb": "^7.5.0"
+  }
+}

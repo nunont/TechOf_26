@@ -1,0 +1,2185 @@
+[
+  {
+    "_id": {
+      "$oid": "660000000000000000000001"
+    },
+    "title": "The Shawshank Redemption",
+    "originalTitle": "The Shawshank Redemption",
+    "genres": [
+      "Drama"
+    ],
+    "synopsis": "A wrongly convicted banker forms an unlikely friendship with a fellow inmate while quietly plotting his escape from a brutal prison.",
+    "director": "Frank Darabont",
+    "releaseDate": {
+      "$date": "1994-09-23T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Tim Robbins",
+        "character": "Andy Dufresne"
+      },
+      {
+        "actor": "Morgan Freeman",
+        "character": "Red"
+      }
+    ],
+    "budget": 25000000,
+    "country": "US",
+    "rating": 9.3,
+    "pegi": 15,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0111161/",
+        "rating": 9.3
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/the_shawshank_redemption",
+        "rating": 91
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000002"
+    },
+    "title": "The Godfather",
+    "originalTitle": "The Godfather",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "synopsis": "The reluctant heir of a powerful mafia family is drawn into the family business after an attempt on his father's life.",
+    "director": "Francis Ford Coppola",
+    "releaseDate": {
+      "$date": "1972-03-24T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Marlon Brando",
+        "character": "Vito Corleone"
+      },
+      {
+        "actor": "Al Pacino",
+        "character": "Michael Corleone"
+      }
+    ],
+    "budget": 6000000,
+    "country": "US",
+    "rating": 9.2,
+    "pegi": 18,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0068646/",
+        "rating": 9.2
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/the_godfather",
+        "rating": 97
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000003"
+    },
+    "title": "The Dark Knight",
+    "originalTitle": "The Dark Knight",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "synopsis": "Batman faces his greatest psychological and physical test as a chaotic criminal mastermind spreads fear across Gotham.",
+    "director": "Christopher Nolan",
+    "releaseDate": {
+      "$date": "2008-07-18T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Christian Bale",
+        "character": "Bruce Wayne"
+      },
+      {
+        "actor": "Heath Ledger",
+        "character": "Joker"
+      }
+    ],
+    "budget": 185000000,
+    "country": "US",
+    "rating": 9,
+    "pegi": 13,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0468569/",
+        "rating": 9
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/the_dark_knight",
+        "rating": 94
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000004"
+    },
+    "title": "Pulp Fiction",
+    "originalTitle": "Pulp Fiction",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "synopsis": "The lives of two hitmen, a boxer, and a gangster's wife intertwine in a series of violent, darkly comic events.",
+    "director": "Quentin Tarantino",
+    "releaseDate": {
+      "$date": "1994-10-14T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "John Travolta",
+        "character": "Vincent Vega"
+      },
+      {
+        "actor": "Samuel L. Jackson",
+        "character": "Jules Winnfield"
+      }
+    ],
+    "budget": 8000000,
+    "country": "US",
+    "rating": 8.9,
+    "pegi": 18,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0110912/",
+        "rating": 8.9
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/pulp_fiction",
+        "rating": 92
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000005"
+    },
+    "title": "Forrest Gump",
+    "originalTitle": "Forrest Gump",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "synopsis": "A slow-witted but kind-hearted man recounts the extraordinary events of his life that intersect with key moments in American history.",
+    "director": "Robert Zemeckis",
+    "releaseDate": {
+      "$date": "1994-07-06T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Tom Hanks",
+        "character": "Forrest Gump"
+      },
+      {
+        "actor": "Robin Wright",
+        "character": "Jenny Curran"
+      }
+    ],
+    "budget": 55000000,
+    "country": "US",
+    "rating": 8.8,
+    "pegi": 13,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0109830/",
+        "rating": 8.8
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/forrest_gump",
+        "rating": 71
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000006"
+    },
+    "title": "Inception",
+    "originalTitle": "Inception",
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "synopsis": "A thief who infiltrates dreams to steal secrets is offered a chance at redemption if he can plant an idea instead of stealing one.",
+    "director": "Christopher Nolan",
+    "releaseDate": {
+      "$date": "2010-07-16T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Leonardo DiCaprio",
+        "character": "Cobb"
+      },
+      {
+        "actor": "Joseph Gordon-Levitt",
+        "character": "Arthur"
+      }
+    ],
+    "budget": 160000000,
+    "country": "US",
+    "rating": 8.8,
+    "pegi": 13,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt1375666/",
+        "rating": 8.8
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/inception",
+        "rating": 87
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000007"
+    },
+    "title": "Fight Club",
+    "originalTitle": "Fight Club",
+    "genres": [
+      "Drama"
+    ],
+    "synopsis": "An insomniac office worker and a soap salesman form an underground fight club that spirals into something far more dangerous.",
+    "director": "David Fincher",
+    "releaseDate": {
+      "$date": "1999-10-15T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Brad Pitt",
+        "character": "Tyler Durden"
+      },
+      {
+        "actor": "Edward Norton",
+        "character": "The Narrator"
+      }
+    ],
+    "budget": 63000000,
+    "country": "US",
+    "rating": 8.8,
+    "pegi": 18,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0137523/",
+        "rating": 8.8
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/fight_club",
+        "rating": 79
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000008"
+    },
+    "title": "The Matrix",
+    "originalTitle": "The Matrix",
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "synopsis": "A computer hacker discovers that reality as he knows it is a simulation and joins a rebellion against its controllers.",
+    "director": "Lana Wachowski",
+    "releaseDate": {
+      "$date": "1999-03-31T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Keanu Reeves",
+        "character": "Neo"
+      },
+      {
+        "actor": "Laurence Fishburne",
+        "character": "Morpheus"
+      }
+    ],
+    "budget": 63000000,
+    "country": "US",
+    "rating": 8.7,
+    "pegi": 15,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0133093/",
+        "rating": 8.7
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/the_matrix",
+        "rating": 83
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000009"
+    },
+    "title": "Goodfellas",
+    "originalTitle": "Goodfellas",
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "synopsis": "A young man rises through the ranks of the mob, chronicling decades of loyalty, greed, and betrayal in the criminal underworld.",
+    "director": "Martin Scorsese",
+    "releaseDate": {
+      "$date": "1990-09-19T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Ray Liotta",
+        "character": "Henry Hill"
+      },
+      {
+        "actor": "Robert De Niro",
+        "character": "Jimmy Conway"
+      }
+    ],
+    "budget": 25000000,
+    "country": "US",
+    "rating": 8.7,
+    "pegi": 18,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0099685/",
+        "rating": 8.7
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/goodfellas",
+        "rating": 96
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000010"
+    },
+    "title": "Interstellar",
+    "originalTitle": "Interstellar",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "synopsis": "A team of explorers travels through a wormhole in search of a new home for humanity as Earth becomes uninhabitable.",
+    "director": "Christopher Nolan",
+    "releaseDate": {
+      "$date": "2014-11-07T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Matthew McConaughey",
+        "character": "Cooper"
+      },
+      {
+        "actor": "Anne Hathaway",
+        "character": "Brand"
+      }
+    ],
+    "budget": 165000000,
+    "country": "US",
+    "rating": 8.7,
+    "pegi": 12,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0816692/",
+        "rating": 8.7
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/interstellar",
+        "rating": 72
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000011"
+    },
+    "title": "Parasite",
+    "originalTitle": "Gisaengchung",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "synopsis": "A poor family schemes to infiltrate the household of a wealthy family, with unexpected and devastating consequences.",
+    "director": "Bong Joon-ho",
+    "releaseDate": {
+      "$date": "2019-05-30T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Song Kang-ho",
+        "character": "Kim Ki-taek"
+      },
+      {
+        "actor": "Lee Sun-kyun",
+        "character": "Park Dong-ik"
+      }
+    ],
+    "budget": 11400000,
+    "country": "KR",
+    "rating": 8.5,
+    "pegi": 15,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt6751668/",
+        "rating": 8.5
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/parasite",
+        "rating": 98
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000012"
+    },
+    "title": "Spirited Away",
+    "originalTitle": "Sen to Chihiro no Kamikakushi",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "synopsis": "A young girl wanders into a mysterious spirit world and must find the courage to save her parents and return home.",
+    "director": "Hayao Miyazaki",
+    "releaseDate": {
+      "$date": "2001-07-20T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Rumi Hiiragi",
+        "character": "Chihiro"
+      },
+      {
+        "actor": "Miyu Irino",
+        "character": "Haku"
+      }
+    ],
+    "budget": 19000000,
+    "country": "JP",
+    "rating": 8.6,
+    "pegi": 7,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0245429/",
+        "rating": 8.6
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/spirited_away",
+        "rating": 97
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000013"
+    },
+    "title": "Gladiator",
+    "originalTitle": "Gladiator",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "synopsis": "A betrayed Roman general is sold into slavery and rises through the gladiator ranks to seek revenge against the corrupt emperor.",
+    "director": "Ridley Scott",
+    "releaseDate": {
+      "$date": "2000-05-05T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Russell Crowe",
+        "character": "Maximus"
+      },
+      {
+        "actor": "Joaquin Phoenix",
+        "character": "Commodus"
+      }
+    ],
+    "budget": 103000000,
+    "country": "US",
+    "rating": 8.5,
+    "pegi": 15,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0172495/",
+        "rating": 8.5
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/gladiator",
+        "rating": 76
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000014"
+    },
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "originalTitle": "The Lord of the Rings: The Fellowship of the Ring",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "synopsis": "A young hobbit sets out with a fellowship of companions to destroy a powerful ring before it falls into the hands of a dark lord.",
+    "director": "Peter Jackson",
+    "releaseDate": {
+      "$date": "2001-12-19T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Elijah Wood",
+        "character": "Frodo Baggins"
+      },
+      {
+        "actor": "Ian McKellen",
+        "character": "Gandalf"
+      }
+    ],
+    "budget": 93000000,
+    "country": "NZ",
+    "rating": 8.9,
+    "pegi": 12,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0120737/",
+        "rating": 8.9
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/the_lord_of_the_rings_the_fellowship_of_the_ring",
+        "rating": 91
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000015"
+    },
+    "title": "Se7en",
+    "originalTitle": "Se7en",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "synopsis": "Two detectives hunt a serial killer who uses the seven deadly sins as a blueprint for his gruesome murders.",
+    "director": "David Fincher",
+    "releaseDate": {
+      "$date": "1995-09-22T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Brad Pitt",
+        "character": "David Mills"
+      },
+      {
+        "actor": "Morgan Freeman",
+        "character": "William Somerset"
+      }
+    ],
+    "budget": 33000000,
+    "country": "US",
+    "rating": 8.6,
+    "pegi": 18,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0114369/",
+        "rating": 8.6
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/se7en",
+        "rating": 82
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000016"
+    },
+    "title": "The Silence of the Lambs",
+    "originalTitle": "The Silence of the Lambs",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "synopsis": "A young FBI trainee seeks the help of an imprisoned cannibalistic psychiatrist to catch another serial killer on the loose.",
+    "director": "Jonathan Demme",
+    "releaseDate": {
+      "$date": "1991-02-14T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Jodie Foster",
+        "character": "Clarice Starling"
+      },
+      {
+        "actor": "Anthony Hopkins",
+        "character": "Hannibal Lecter"
+      }
+    ],
+    "budget": 19000000,
+    "country": "US",
+    "rating": 8.6,
+    "pegi": 18,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0102926/",
+        "rating": 8.6
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/the_silence_of_the_lambs",
+        "rating": 95
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000017"
+    },
+    "title": "Saving Private Ryan",
+    "originalTitle": "Saving Private Ryan",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "synopsis": "A squad of soldiers is sent behind enemy lines during World War II to retrieve a paratrooper whose brothers were killed in action.",
+    "director": "Steven Spielberg",
+    "releaseDate": {
+      "$date": "1998-07-24T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Tom Hanks",
+        "character": "Captain Miller"
+      },
+      {
+        "actor": "Matt Damon",
+        "character": "Private Ryan"
+      }
+    ],
+    "budget": 70000000,
+    "country": "US",
+    "rating": 8.6,
+    "pegi": 18,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0120815/",
+        "rating": 8.6
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/saving_private_ryan",
+        "rating": 93
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000018"
+    },
+    "title": "The Green Mile",
+    "originalTitle": "The Green Mile",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Fantasy"
+    ],
+    "synopsis": "A death row prison guard witnesses supernatural events surrounding a gentle giant convicted of a crime he did not commit.",
+    "director": "Frank Darabont",
+    "releaseDate": {
+      "$date": "1999-12-10T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Tom Hanks",
+        "character": "Paul Edgecomb"
+      },
+      {
+        "actor": "Michael Clarke Duncan",
+        "character": "John Coffey"
+      }
+    ],
+    "budget": 60000000,
+    "country": "US",
+    "rating": 8.6,
+    "pegi": 15,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0120689/",
+        "rating": 8.6
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/the_green_mile",
+        "rating": 78
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000019"
+    },
+    "title": "Whiplash",
+    "originalTitle": "Whiplash",
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "synopsis": "A young drummer enrolls at a cutthroat music conservatory where an abusive instructor pushes him to his breaking point.",
+    "director": "Damien Chazelle",
+    "releaseDate": {
+      "$date": "2014-10-10T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Miles Teller",
+        "character": "Andrew Neiman"
+      },
+      {
+        "actor": "J.K. Simmons",
+        "character": "Terence Fletcher"
+      }
+    ],
+    "budget": 3300000,
+    "country": "US",
+    "rating": 8.5,
+    "pegi": 15,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt2582802/",
+        "rating": 8.5
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/whiplash",
+        "rating": 94
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000020"
+    },
+    "title": "The Prestige",
+    "originalTitle": "The Prestige",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "synopsis": "Two rival stage magicians engage in an escalating battle of sabotage and obsession to create the ultimate illusion.",
+    "director": "Christopher Nolan",
+    "releaseDate": {
+      "$date": "2006-10-20T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Hugh Jackman",
+        "character": "Robert Angier"
+      },
+      {
+        "actor": "Christian Bale",
+        "character": "Alfred Borden"
+      }
+    ],
+    "budget": 40000000,
+    "country": "US",
+    "rating": 8.5,
+    "pegi": 13,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0482571/",
+        "rating": 8.5
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/the_prestige",
+        "rating": 76
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000021"
+    },
+    "title": "The Departed",
+    "originalTitle": "The Departed",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "synopsis": "An undercover cop and a mole within the police force try to identify each other while infiltrating a violent Boston crime gang.",
+    "director": "Martin Scorsese",
+    "releaseDate": {
+      "$date": "2006-10-06T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Leonardo DiCaprio",
+        "character": "Billy Costigan"
+      },
+      {
+        "actor": "Matt Damon",
+        "character": "Colin Sullivan"
+      }
+    ],
+    "budget": 90000000,
+    "country": "US",
+    "rating": 8.5,
+    "pegi": 18,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0407887/",
+        "rating": 8.5
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/the_departed",
+        "rating": 91
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000022"
+    },
+    "title": "Coco",
+    "originalTitle": "Coco",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "synopsis": "A young boy with dreams of becoming a musician is transported to the Land of the Dead, where he uncovers his family's hidden history.",
+    "director": "Lee Unkrich",
+    "releaseDate": {
+      "$date": "2017-11-22T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Anthony Gonzalez",
+        "character": "Miguel"
+      },
+      {
+        "actor": "Gael Garcia Bernal",
+        "character": "Hector"
+      }
+    ],
+    "budget": 175000000,
+    "country": "US",
+    "rating": 8.4,
+    "pegi": 7,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt2380307/",
+        "rating": 8.4
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/coco",
+        "rating": 97
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000023"
+    },
+    "title": "Django Unchained",
+    "originalTitle": "Django Unchained",
+    "genres": [
+      "Drama",
+      "Western"
+    ],
+    "synopsis": "A freed slave teams up with a bounty hunter to track down a ruthless plantation owner and rescue his wife.",
+    "director": "Quentin Tarantino",
+    "releaseDate": {
+      "$date": "2012-12-25T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Jamie Foxx",
+        "character": "Django"
+      },
+      {
+        "actor": "Christoph Waltz",
+        "character": "Dr. King Schultz"
+      }
+    ],
+    "budget": 100000000,
+    "country": "US",
+    "rating": 8.4,
+    "pegi": 18,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt1853728/",
+        "rating": 8.4
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/django_unchained",
+        "rating": 87
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000024"
+    },
+    "title": "The Lion King",
+    "originalTitle": "The Lion King",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "synopsis": "A young lion prince flees his kingdom after his father's death, only to learn the true meaning of responsibility and courage.",
+    "director": "Roger Allers",
+    "releaseDate": {
+      "$date": "1994-06-24T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Matthew Broderick",
+        "character": "Simba"
+      },
+      {
+        "actor": "James Earl Jones",
+        "character": "Mufasa"
+      }
+    ],
+    "budget": 45000000,
+    "country": "US",
+    "rating": 8.5,
+    "pegi": 7,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0110357/",
+        "rating": 8.5
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/the_lion_king",
+        "rating": 93
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000025"
+    },
+    "title": "Amelie",
+    "originalTitle": "Le Fabuleux Destin d'Amelie Poulain",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "synopsis": "A shy Parisian waitress secretly orchestrates small acts of kindness that transform the lives of those around her.",
+    "director": "Jean-Pierre Jeunet",
+    "releaseDate": {
+      "$date": "2001-04-25T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Audrey Tautou",
+        "character": "Amelie Poulain"
+      },
+      {
+        "actor": "Mathieu Kassovitz",
+        "character": "Nino Quincampoix"
+      }
+    ],
+    "budget": 10000000,
+    "country": "FR",
+    "rating": 8.3,
+    "pegi": 12,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0211915/",
+        "rating": 8.3
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/amelie",
+        "rating": 89
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000026"
+    },
+    "title": "City of God",
+    "originalTitle": "Cidade de Deus",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "synopsis": "Two young men from a violent Rio de Janeiro slum take very different paths, one toward crime and the other toward photography.",
+    "director": "Fernando Meirelles",
+    "releaseDate": {
+      "$date": "2002-08-30T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Alexandre Rodrigues",
+        "character": "Rocket"
+      },
+      {
+        "actor": "Leandro Firmino",
+        "character": "Ze Pequeno"
+      }
+    ],
+    "budget": 3300000,
+    "country": "BR",
+    "rating": 8.6,
+    "pegi": 18,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0317248/",
+        "rating": 8.6
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/city_of_god",
+        "rating": 91
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000027"
+    },
+    "title": "Oldboy",
+    "originalTitle": "Oldeuboi",
+    "genres": [
+      "Action",
+      "Drama",
+      "Mystery"
+    ],
+    "synopsis": "A man is inexplicably imprisoned for fifteen years and, upon release, has five days to uncover who did this to him and why.",
+    "director": "Park Chan-wook",
+    "releaseDate": {
+      "$date": "2003-11-21T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Choi Min-sik",
+        "character": "Oh Dae-su"
+      },
+      {
+        "actor": "Yoo Ji-tae",
+        "character": "Lee Woo-jin"
+      }
+    ],
+    "budget": 3000000,
+    "country": "KR",
+    "rating": 8.4,
+    "pegi": 18,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0364569/",
+        "rating": 8.4
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/oldboy",
+        "rating": 81
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000028"
+    },
+    "title": "No Country for Old Men",
+    "originalTitle": "No Country for Old Men",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "synopsis": "A hunter stumbles upon a drug deal gone wrong and a satchel of cash, setting off a relentless pursuit by a merciless hitman.",
+    "director": "Joel Coen",
+    "releaseDate": {
+      "$date": "2007-11-21T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Javier Bardem",
+        "character": "Anton Chigurh"
+      },
+      {
+        "actor": "Tommy Lee Jones",
+        "character": "Ed Tom Bell"
+      }
+    ],
+    "budget": 25000000,
+    "country": "US",
+    "rating": 8.2,
+    "pegi": 18,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0477348/",
+        "rating": 8.2
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/no_country_for_old_men",
+        "rating": 93
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000029"
+    },
+    "title": "Her",
+    "originalTitle": "Her",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "synopsis": "A lonely writer develops an unexpected relationship with an intelligent operating system designed to meet his every need.",
+    "director": "Spike Jonze",
+    "releaseDate": {
+      "$date": "2013-12-18T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Joaquin Phoenix",
+        "character": "Theodore Twombly"
+      },
+      {
+        "actor": "Scarlett Johansson",
+        "character": "Samantha (voice)"
+      }
+    ],
+    "budget": 23000000,
+    "country": "US",
+    "rating": 8,
+    "pegi": 15,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt1798709/",
+        "rating": 8
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/her",
+        "rating": 94
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000030"
+    },
+    "title": "Mad Max: Fury Road",
+    "originalTitle": "Mad Max: Fury Road",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "synopsis": "In a desolate wasteland, a drifter joins a rebellious warrior fleeing a tyrannical warlord in a high-octane chase across the desert.",
+    "director": "George Miller",
+    "releaseDate": {
+      "$date": "2015-05-15T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Tom Hardy",
+        "character": "Max Rockatansky"
+      },
+      {
+        "actor": "Charlize Theron",
+        "character": "Furiosa"
+      }
+    ],
+    "budget": 185000000,
+    "country": "AU",
+    "rating": 8.1,
+    "pegi": 15,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt1392190/",
+        "rating": 8.1
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/mad_max_fury_road",
+        "rating": 97
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000031"
+    },
+    "title": "Get Out",
+    "originalTitle": "Get Out",
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "synopsis": "A young man visiting his girlfriend's family estate uncovers a sinister secret hidden beneath their welcoming facade.",
+    "director": "Jordan Peele",
+    "releaseDate": {
+      "$date": "2017-02-24T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Daniel Kaluuya",
+        "character": "Chris Washington"
+      },
+      {
+        "actor": "Allison Williams",
+        "character": "Rose Armitage"
+      }
+    ],
+    "budget": 4500000,
+    "country": "US",
+    "rating": 7.7,
+    "pegi": 15,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt5052448/",
+        "rating": 7.7
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/get_out",
+        "rating": 98
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000032"
+    },
+    "title": "La La Land",
+    "originalTitle": "La La Land",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Music"
+    ],
+    "synopsis": "An aspiring actress and a passionate jazz musician fall in love while pursuing their dreams in Los Angeles.",
+    "director": "Damien Chazelle",
+    "releaseDate": {
+      "$date": "2016-12-09T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Ryan Gosling",
+        "character": "Sebastian"
+      },
+      {
+        "actor": "Emma Stone",
+        "character": "Mia"
+      }
+    ],
+    "budget": 30000000,
+    "country": "US",
+    "rating": 8,
+    "pegi": 12,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt3783958/",
+        "rating": 8
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/la_la_land",
+        "rating": 91
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000033"
+    },
+    "title": "The Grand Budapest Hotel",
+    "originalTitle": "The Grand Budapest Hotel",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "synopsis": "A legendary concierge and his loyal lobby boy become entangled in a theft, a murder, and a battle over a family fortune.",
+    "director": "Wes Anderson",
+    "releaseDate": {
+      "$date": "2014-03-28T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Ralph Fiennes",
+        "character": "M. Gustave"
+      },
+      {
+        "actor": "Tony Revolori",
+        "character": "Zero Moustafa"
+      }
+    ],
+    "budget": 25000000,
+    "country": "DE",
+    "rating": 8.1,
+    "pegi": 12,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt2278388/",
+        "rating": 8.1
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/the_grand_budapest_hotel",
+        "rating": 92
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000034"
+    },
+    "title": "Blade Runner 2049",
+    "originalTitle": "Blade Runner 2049",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "synopsis": "A young blade runner unearths a long-buried secret that could plunge society into chaos and leads him to a former blade runner missing for decades.",
+    "director": "Denis Villeneuve",
+    "releaseDate": {
+      "$date": "2017-10-06T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Ryan Gosling",
+        "character": "K"
+      },
+      {
+        "actor": "Harrison Ford",
+        "character": "Rick Deckard"
+      }
+    ],
+    "budget": 150000000,
+    "country": "US",
+    "rating": 8,
+    "pegi": 15,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt1856101/",
+        "rating": 8
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/blade_runner_2049",
+        "rating": 88
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000035"
+    },
+    "title": "Arrival",
+    "originalTitle": "Arrival",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "synopsis": "A linguist is recruited by the military to communicate with alien visitors after mysterious spacecraft appear around the world.",
+    "director": "Denis Villeneuve",
+    "releaseDate": {
+      "$date": "2016-11-11T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Amy Adams",
+        "character": "Louise Banks"
+      },
+      {
+        "actor": "Jeremy Renner",
+        "character": "Ian Donnelly"
+      }
+    ],
+    "budget": 47000000,
+    "country": "US",
+    "rating": 7.9,
+    "pegi": 12,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt2543164/",
+        "rating": 7.9
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/arrival",
+        "rating": 94
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000036"
+    },
+    "title": "Toy Story",
+    "originalTitle": "Toy Story",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "synopsis": "A cowboy doll's world is turned upside down when a spaceman action figure becomes his owner's new favorite toy.",
+    "director": "John Lasseter",
+    "releaseDate": {
+      "$date": "1995-11-22T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Tom Hanks",
+        "character": "Woody (voice)"
+      },
+      {
+        "actor": "Tim Allen",
+        "character": "Buzz Lightyear (voice)"
+      }
+    ],
+    "budget": 30000000,
+    "country": "US",
+    "rating": 8.3,
+    "pegi": 7,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0114709/",
+        "rating": 8.3
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/toy_story",
+        "rating": 100
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000037"
+    },
+    "title": "The Wolf of Wall Street",
+    "originalTitle": "The Wolf of Wall Street",
+    "genres": [
+      "Biography",
+      "Comedy",
+      "Crime"
+    ],
+    "synopsis": "A young stockbroker builds an empire of excess and fraud on Wall Street before it all comes crashing down.",
+    "director": "Martin Scorsese",
+    "releaseDate": {
+      "$date": "2013-12-25T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Leonardo DiCaprio",
+        "character": "Jordan Belfort"
+      },
+      {
+        "actor": "Jonah Hill",
+        "character": "Donnie Azoff"
+      }
+    ],
+    "budget": 100000000,
+    "country": "US",
+    "rating": 8.2,
+    "pegi": 18,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0993846/",
+        "rating": 8.2
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/the_wolf_of_wall_street",
+        "rating": 78
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000038"
+    },
+    "title": "1917",
+    "originalTitle": "1917",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "synopsis": "Two young soldiers race across enemy territory during World War I to deliver a message that could save thousands of lives.",
+    "director": "Sam Mendes",
+    "releaseDate": {
+      "$date": "2019-12-25T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "George MacKay",
+        "character": "Schofield"
+      },
+      {
+        "actor": "Dean-Charles Chapman",
+        "character": "Blake"
+      }
+    ],
+    "budget": 95000000,
+    "country": "GB",
+    "rating": 8.2,
+    "pegi": 15,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt8579674/",
+        "rating": 8.2
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/1917",
+        "rating": 89
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000039"
+    },
+    "title": "Joker",
+    "originalTitle": "Joker",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "synopsis": "A failed comedian's descent into madness and violence transforms him into an infamous criminal icon in a decaying Gotham City.",
+    "director": "Todd Phillips",
+    "releaseDate": {
+      "$date": "2019-10-04T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Joaquin Phoenix",
+        "character": "Arthur Fleck"
+      },
+      {
+        "actor": "Robert De Niro",
+        "character": "Murray Franklin"
+      }
+    ],
+    "budget": 55000000,
+    "country": "US",
+    "rating": 8.4,
+    "pegi": 18,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt7286456/",
+        "rating": 8.4
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/joker",
+        "rating": 68
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000040"
+    },
+    "title": "Everything Everywhere All at Once",
+    "originalTitle": "Everything Everywhere All at Once",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "synopsis": "An overwhelmed laundromat owner discovers she must connect with parallel versions of herself to save the multiverse from collapse.",
+    "director": "Daniel Kwan",
+    "releaseDate": {
+      "$date": "2022-03-25T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Michelle Yeoh",
+        "character": "Evelyn Wang"
+      },
+      {
+        "actor": "Ke Huy Quan",
+        "character": "Waymond Wang"
+      }
+    ],
+    "budget": 25000000,
+    "country": "US",
+    "rating": 7.8,
+    "pegi": 15,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt6710474/",
+        "rating": 7.8
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/everything_everywhere_all_at_once",
+        "rating": 94
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000041"
+    },
+    "title": "Dune",
+    "originalTitle": "Dune",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "synopsis": "A young nobleman is thrust into a battle for control of a desert planet that holds the galaxy's most valuable resource.",
+    "director": "Denis Villeneuve",
+    "releaseDate": {
+      "$date": "2021-10-22T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Timothee Chalamet",
+        "character": "Paul Atreides"
+      },
+      {
+        "actor": "Rebecca Ferguson",
+        "character": "Lady Jessica"
+      }
+    ],
+    "budget": 165000000,
+    "country": "US",
+    "rating": 8,
+    "pegi": 12,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt1160419/",
+        "rating": 8
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/dune",
+        "rating": 83
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000042"
+    },
+    "title": "Knives Out",
+    "originalTitle": "Knives Out",
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "synopsis": "A detective investigates the death of a wealthy crime novelist, uncovering a web of lies among his greedy, dysfunctional family.",
+    "director": "Rian Johnson",
+    "releaseDate": {
+      "$date": "2019-11-27T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Daniel Craig",
+        "character": "Benoit Blanc"
+      },
+      {
+        "actor": "Ana de Armas",
+        "character": "Marta Cabrera"
+      }
+    ],
+    "budget": 40000000,
+    "country": "US",
+    "rating": 7.9,
+    "pegi": 12,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt8946378/",
+        "rating": 7.9
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/knives_out",
+        "rating": 97
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000043"
+    },
+    "title": "Spider-Man: Into the Spider-Verse",
+    "originalTitle": "Spider-Man: Into the Spider-Verse",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "synopsis": "A Brooklyn teenager becomes the Spider-Man of his universe and joins forces with counterparts from other dimensions to save them all.",
+    "director": "Bob Persichetti",
+    "releaseDate": {
+      "$date": "2018-12-14T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Shameik Moore",
+        "character": "Miles Morales (voice)"
+      },
+      {
+        "actor": "Jake Johnson",
+        "character": "Peter B. Parker (voice)"
+      }
+    ],
+    "budget": 90000000,
+    "country": "US",
+    "rating": 8.4,
+    "pegi": 7,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt4633694/",
+        "rating": 8.4
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/spider-man_into_the_spider-verse",
+        "rating": 97
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000044"
+    },
+    "title": "A Separation",
+    "originalTitle": "Jodaeiye Nader az Simin",
+    "genres": [
+      "Drama"
+    ],
+    "synopsis": "A married couple's separation sets off a legal and moral dispute that exposes the fault lines of an entire family.",
+    "director": "Asghar Farhadi",
+    "releaseDate": {
+      "$date": "2011-03-16T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Payman Maadi",
+        "character": "Nader"
+      },
+      {
+        "actor": "Leila Hatami",
+        "character": "Simin"
+      }
+    ],
+    "budget": 500000,
+    "country": "IR",
+    "rating": 8.3,
+    "pegi": 12,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt1832382/",
+        "rating": 8.3
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/a_separation",
+        "rating": 99
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000045"
+    },
+    "title": "Amadeus",
+    "originalTitle": "Amadeus",
+    "genres": [
+      "Biography",
+      "Drama",
+      "Music"
+    ],
+    "synopsis": "A rival composer, consumed by jealousy, schemes against the brilliant and reckless young Wolfgang Amadeus Mozart.",
+    "director": "Milos Forman",
+    "releaseDate": {
+      "$date": "1984-09-19T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "F. Murray Abraham",
+        "character": "Antonio Salieri"
+      },
+      {
+        "actor": "Tom Hulce",
+        "character": "Wolfgang Amadeus Mozart"
+      }
+    ],
+    "budget": 18000000,
+    "country": "US",
+    "rating": 8.3,
+    "pegi": 12,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0086879/",
+        "rating": 8.3
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/amadeus",
+        "rating": 89
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000046"
+    },
+    "title": "The Truman Show",
+    "originalTitle": "The Truman Show",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "synopsis": "A man slowly discovers that his entire life has been broadcast as a reality television show without his knowledge.",
+    "director": "Peter Weir",
+    "releaseDate": {
+      "$date": "1998-06-05T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Jim Carrey",
+        "character": "Truman Burbank"
+      },
+      {
+        "actor": "Ed Harris",
+        "character": "Christof"
+      }
+    ],
+    "budget": 60000000,
+    "country": "US",
+    "rating": 8.2,
+    "pegi": 12,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0120382/",
+        "rating": 8.2
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/the_truman_show",
+        "rating": 95
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000047"
+    },
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "originalTitle": "Eternal Sunshine of the Spotless Mind",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "synopsis": "A heartbroken man undergoes a procedure to erase memories of his former girlfriend, only to relive their relationship in reverse.",
+    "director": "Michel Gondry",
+    "releaseDate": {
+      "$date": "2004-03-19T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Jim Carrey",
+        "character": "Joel Barish"
+      },
+      {
+        "actor": "Kate Winslet",
+        "character": "Clementine Kruczynski"
+      }
+    ],
+    "budget": 20000000,
+    "country": "US",
+    "rating": 8.3,
+    "pegi": 15,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0338013/",
+        "rating": 8.3
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/eternal_sunshine_of_the_spotless_mind",
+        "rating": 92
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000048"
+    },
+    "title": "Life Is Beautiful",
+    "originalTitle": "La Vita e Bella",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "War"
+    ],
+    "synopsis": "A father uses humor and imagination to shield his young son from the horrors of a Nazi concentration camp.",
+    "director": "Roberto Benigni",
+    "releaseDate": {
+      "$date": "1997-12-20T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Roberto Benigni",
+        "character": "Guido Orefice"
+      },
+      {
+        "actor": "Nicoletta Braschi",
+        "character": "Dora"
+      }
+    ],
+    "budget": 20000000,
+    "country": "IT",
+    "rating": 8.6,
+    "pegi": 12,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0118799/",
+        "rating": 8.6
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/life_is_beautiful",
+        "rating": 80
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000049"
+    },
+    "title": "Pan's Labyrinth",
+    "originalTitle": "El Laberinto del Fauno",
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "War"
+    ],
+    "synopsis": "A young girl escapes into a dark fantastical realm to cope with the brutal reality of fascist post-war Spain.",
+    "director": "Guillermo del Toro",
+    "releaseDate": {
+      "$date": "2006-10-11T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Ivana Baquero",
+        "character": "Ofelia"
+      },
+      {
+        "actor": "Sergi Lopez",
+        "character": "Captain Vidal"
+      }
+    ],
+    "budget": 19000000,
+    "country": "ES",
+    "rating": 8.2,
+    "pegi": 15,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0457430/",
+        "rating": 8.2
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/pans_labyrinth",
+        "rating": 95
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "660000000000000000000050"
+    },
+    "title": "Inglourious Basterds",
+    "originalTitle": "Inglourious Basterds",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "War"
+    ],
+    "synopsis": "In Nazi-occupied France, a group of Jewish-American soldiers and a young theater owner plot separate schemes of revenge.",
+    "director": "Quentin Tarantino",
+    "releaseDate": {
+      "$date": "2009-08-21T00:00:00.000Z"
+    },
+    "cast": [
+      {
+        "actor": "Brad Pitt",
+        "character": "Lt. Aldo Raine"
+      },
+      {
+        "actor": "Christoph Waltz",
+        "character": "Col. Hans Landa"
+      }
+    ],
+    "budget": 70000000,
+    "country": "US",
+    "rating": 8.4,
+    "pegi": 18,
+    "posterUrl": "",
+    "reviews": [
+      {
+        "site": "IMDb",
+        "url": "https://www.imdb.com/title/tt0361748/",
+        "rating": 8.4
+      },
+      {
+        "site": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/m/inglourious_basterds",
+        "rating": 89
+      }
+    ]
+  }
+]
