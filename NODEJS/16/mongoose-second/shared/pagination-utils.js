@@ -28,7 +28,7 @@ exports.prepareSort = (query) => {
     return sort;
 }
 
-exports.prepareFilter = (query, model) => {
+exports.prepareFilter = (query, model) => {   
     const properties = Object.keys(model.schema.paths)
         .filter(p => !['_id', '__v'].includes(p));
 
@@ -36,5 +36,22 @@ exports.prepareFilter = (query, model) => {
         Object.entries(query)
             .filter(([key]) => properties.includes(key))
     );
-    return filter;
+
+    var finalFilter = {};
+    for (const [field, condition] of Object.entries(filter)){
+        if (typeof condition === 'object'
+            && condition != null
+        ){
+            let newFilter = {};
+            for (const [op, value] of Object.entries(condition)){
+                let newCondition = '$' + op;
+                newFilter[newCondition] = value;
+            }
+            finalFilter[field] = newFilter;
+        }
+        else {
+            finalFilter[field] = condition;
+        }
+    }
+    return finalFilter;
 }

@@ -6,6 +6,7 @@ const PersonRouter = require('./api/persons/person.routes');
 
 const app = express();
 app.use(express.json());
+app.set('query parser', 'extended');
 
 app.use('/api/customers', CustomerRouter);
 app.use('/api/persons', PersonRouter);

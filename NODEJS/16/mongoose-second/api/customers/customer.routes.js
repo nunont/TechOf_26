@@ -5,6 +5,11 @@ const customerRouter = express.Router();
 
 customerRouter.post('/', customerController.createCustomer);
 customerRouter.get('/', customerController.getAllCustomers);
+
+customerRouter.get('/statistics', customerController.statisticsCustomers);
+customerRouter.get('/statisticsbyCountry', customerController.statisticsCustomersByCountry);
+
+
 customerRouter.get('/:id', customerController.getCustomerById);
 customerRouter.put('/:id', customerController.updateCustomer);
 customerRouter.delete('/:id', customerController.deleteCustomer);
