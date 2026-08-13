@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 
@@ -13,14 +14,11 @@ app.use('/api/customers', CustomerRouter);
 app.use('/api/persons', PersonRouter);
 app.use('/api/auth', AuthRouter)
 
-const connectionString = 
-"mongodb+srv://nunomarques:KrJpJUtsrCVqrJ3S@techof.dol23.mongodb.net/padel?appName=TechOf";
+mongoose.connect(process.env.MONGODB_CONNECTIONSTRING);
 
-mongoose.connect(connectionString);
-
-app.listen(3000, (error) => {
+app.listen(process.env.PORT, (error) => {
     if (error){
         console.log(error)
     }
-    console.log("Api começou na porta", 3000);
+    console.log("Api começou na porta", process.env.PORT);
 })

@@ -2,6 +2,7 @@ const CustomerModel = require("./customer.model")
 const { preparePagination, prepareSort, prepareFilter } = require('./../../shared/pagination-utils')
 
 exports.createCustomer = (req, res) => {
+   
     const newCustomer = new CustomerModel(req.body);
     newCustomer.save()
     .then((customer) => {
@@ -66,6 +67,23 @@ exports.updateCustomer = (req, res) => {
 }
 
 exports.deleteCustomer = (req, res) => {
+    /* CustomerModel.findById(req.params.id)
+    .then((customer) => {
+        if (customer.createdBy != req.currentUser.id
+            || req.currentUser.role == "admin"
+        ){
+            //RESPOSTA ERRO
+        }
+
+        return CustomerModel.deleteOne({ _id: customer._id})
+    })
+    .then((result) => {
+        res.status(200).send();
+    })
+    .catch(error => {
+        res.status(500).json(error.errors);
+    }) */
+
     CustomerModel.findByIdAndDelete(req.params.id)
     .then((result) => {
         res.status(200).send();

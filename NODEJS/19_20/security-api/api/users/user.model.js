@@ -14,8 +14,20 @@ const UserSchema = new Schema({
         required: true,
         minLength: 4
     },
-    name: String
+    name: String,
+    role: {
+        type: String,
+        required: true,
+        default: 'user',
+        enum: ['user', 'admin']
+    }
 });
+
+UserSchema.methods = {
+    comparePassword: function(plainTextPassword){
+        return bcrypt.compareSync(plainTextPassword, this.password);
+    }
+}
 
 UserSchema.pre('save', function(){
     const salt = bcrypt.genSaltSync(12);
