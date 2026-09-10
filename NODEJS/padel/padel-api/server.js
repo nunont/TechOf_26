@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 const AuthRouter = require('./api/users/auth.router');
 const CustomerRouter = require('./api/customers/customer.routes');
@@ -8,6 +9,7 @@ const FieldRouter = require('./api/fields/field.routes');
 const BookingRouter = require('./api/bookings/booking.routes');
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 app.set('query parser', 'extended');
 
