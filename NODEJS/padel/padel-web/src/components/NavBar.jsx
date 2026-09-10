@@ -45,9 +45,14 @@ function NavBar() {
                     </Button>
                 )}
                 {isAuthenticated && user?.role === 'club' && (
-                    <Button component={RouterLink} to="/manage/fields" color="inherit">
-                        Os meus campos
-                    </Button>
+                    <>
+                        <Button component={RouterLink} to="/manage/fields" color="inherit">
+                            Os meus campos
+                        </Button>
+                        <Button component={RouterLink} to="/manage/bookings" color="inherit">
+                            Marcações
+                        </Button>
+                    </>
                 )}
 
                 {!isAuthenticated && (

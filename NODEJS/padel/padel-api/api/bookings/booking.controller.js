@@ -1,6 +1,7 @@
 const BookingModel = require('./booking.model');
 const CustomerModel = require('./../customers/customer.model');
 const FieldModel = require('./../fields/field.model');
+const ClubModel = require('./../clubs/club.model');
 const { preparePagination, prepareSort, prepareFilter } = require('./../../shared/pagination-utils');
 
 exports.createBooking = (req, res) => {
@@ -85,6 +86,26 @@ exports.getMyBookings = (req, res) => {
                 .then((result) => {
                     res.status(200).json(result);
                 });
+        })
+        .catch(error => {
+            res.status(500).json(error.errors || error);
+        });
+}
+
+exports.getMyClubBookings = (req, res) => {
+    ClubModel.findOne({ user: req.user.id })
+        .then((club) => {
+            if (!club) {
+                return res.status(404).json({ message: 'Não existe nenhum club associado a este utilizador' });
+            }
+            return FieldModel.find({ club: club._id })
+        })
+        .then((fields) => {
+            const fieldIds = fields.map((field) => field._id);
+            return BookingModel.find({ field: { $in: fieldIds } })
+        })
+        .then((result) => {
+            res.status(200).json(result);
         })
         .catch(error => {
             res.status(500).json(error.errors || error);

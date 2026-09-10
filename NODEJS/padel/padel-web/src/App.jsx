@@ -10,6 +10,7 @@ import Register from './pages/Register';
 import Profile from './pages/Profile';
 import MyBookings from './pages/MyBookings';
 import ManageFields from './pages/ManageFields';
+import ManageBookings from './pages/ManageBookings';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
 
                 <Route element={<ProtectedRoute role="club" />}>
                     <Route path="/manage/fields" element={<ManageFields />} />
+                    <Route path="/manage/bookings" element={<ManageBookings />} />
                 </Route>
 
                 <Route path="*" element={<NotFound />} />

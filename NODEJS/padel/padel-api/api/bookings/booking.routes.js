@@ -7,6 +7,7 @@ const bookingRouter = express.Router();
 bookingRouter.post('/', authenticate, authorize('customer'), bookingController.createBooking);
 bookingRouter.get('/', authenticate, bookingController.getAllBookings);
 bookingRouter.get('/me', authenticate, authorize('customer'), bookingController.getMyBookings);
+bookingRouter.get('/club-me', authenticate, authorize('club'), bookingController.getMyClubBookings);
 
 bookingRouter.get('/:id', authenticate, bookingController.getBookingById);
 bookingRouter.put('/:id', authenticate, bookingController.updateBooking);
