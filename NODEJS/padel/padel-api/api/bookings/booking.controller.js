@@ -124,9 +124,15 @@ exports.updateBooking = (req, res) => {
 }
 
 exports.deleteBooking = (req, res) => {
-    BookingModel.findByIdAndDelete(req.params.id)
-        .then(() => {
-            res.status(200).send();
+    BookingModel.findById(req.params.id)
+        .then((booking) => {
+            if (!booking) {
+                return res.status(404).json({ message: 'Marcação não encontrada' });
+            }
+            return booking.softDelete()
+                .then(() => {
+                    res.status(200).send();
+                });
         })
         .catch(error => {
             res.status(500).json(error.errors || error);

@@ -29,6 +29,11 @@ const BookingModel = new Schema({
         },
         default: 'confirmed'
     },
+    isDeleted: {
+        type: Boolean,
+        default: false
+    },
+    deletedAt: Date,
     createdAt: Date,
     modifiedAt: Date
 });
@@ -50,9 +55,31 @@ BookingModel.pre('findOneAndUpdate', function () {
 });
 
 BookingModel.pre(/^find/, function () {
-    this.select('-__v')
+    if (this.getFilter().isDeleted === undefined) {
+        this.where({ isDeleted: false });
+    }
+
+    this.select('-__v -isDeleted -deletedAt')
         .populate('field', 'name type pricePerHour club')
         .populate('customer', 'name');
 });
 
+BookingModel.pre(['deleteOne', 'deleteMany', 'findOneAndDelete'], function () {
+    throw new Error('Use softDelete() — hard delete is disabled para bookings');
+});
+
+BookingModel.methods.softDelete = function () {
+    this.isDeleted = true;
+    this.deletedAt = new Date();
+    return this.save();
+};
+
+/* Menos aconselhada - Devido às actualizações na biblioteca(monggose)
+
+BookingModel.pre('findOneAndDelete', async function () {
+    const filter = this.getFilter();
+    await this.model.updateOne(filter, { isDeleted: true, deletedAt: new Date() });
+    this.setQuery({ _id: null }); // delete now matches nothing
+});
+ */
 module.exports = mongoose.model('booking', BookingModel);
